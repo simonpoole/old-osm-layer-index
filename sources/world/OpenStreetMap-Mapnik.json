@@ -5,7 +5,7 @@
         "text": "\u00a9 OpenStreetMap contributors, CC-BY-SA",
         "required": true
     },
-    "name": "OpenStreetMap (Standard)",
+    "name": "OpenStreetMap (Mapnik)",
     "url": "http://{switch:a,b,c}.tile.openstreetmap.org/{zoom}/{x}/{y}.png",
     "default": true,
     "extent": {

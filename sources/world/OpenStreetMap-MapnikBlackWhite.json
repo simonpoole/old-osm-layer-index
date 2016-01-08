@@ -4,7 +4,7 @@
         "text": "\u00a9 OpenStreetMap contributors, CC-BY-SA",
         "required": true
     },
-    "name": "OpenStreetMap (Standard Black & White)",
+    "name": "OpenStreetMap (Mapnik Black & White)",
     "url": "http://{switch:a,b,c}.www.toolserver.org/tiles/bw-mapnik/{zoom}/{x}/{y}.png",
     "default": true,
     "extent": {

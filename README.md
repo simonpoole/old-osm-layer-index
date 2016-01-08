@@ -1,4 +1,4 @@
-# OSM Editor Layer Index
+# OSM Layer Index "OLI"
 
 The goal of this project is to maintain a canonical representation of the layers available to [OpenStreetMap](http://www.openstreetmap.org/) editors such as [iD](https://github.com/openstreetmap/iD), [JOSM](http://josm.openstreetmap.de/), and [Potlatch 2](https://github.com/systemed/potlatch2).
 

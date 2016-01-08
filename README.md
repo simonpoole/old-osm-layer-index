@@ -1,4 +1,4 @@
-# OSM Editor Imagery Index
+# OSM Layer Index "OLI"
 
 The goal of this project is to maintain a canonical representation of the layers available to [OpenStreetMap](http://www.openstreetmap.org/) editors.
 

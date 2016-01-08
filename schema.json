@@ -1,6 +1,6 @@
 {
-    "title": "Editor Imagery",
-    "description": "Describes a source of imagery for OSM editors",
+    "title": "Editor Layers",
+    "description": "Describes a layer source for OSM editors",
     "type": "object",
     "required": ["name", "type", "url"],
     "properties": {
@@ -54,6 +54,11 @@
         "overlay": {
             "description": "'true' if tiles are transparent and can be overlaid on another source",
             "type": "boolean"
+        },
+        "content": {
+            "description": "what the layer actually contains, 'osm' for OSM derived images",
+            "type": "string",
+            "enum": ["imagery", "map", "osm"]
         },
         "extent": {
             "type": "object",

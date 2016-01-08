@@ -1,6 +1,7 @@
 {
     "url": "http://tools.geofabrik.de/osmi/tiles/geometry/{zoom}/{x}/{y}.png",
     "type": "tms",
+    "content": "osm",
     "overlay": true,
     "attribution": {
         "url": "http://tools.geofabrik.de/osmi/",

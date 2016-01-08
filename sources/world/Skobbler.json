@@ -11,5 +11,6 @@
         "max_zoom": 18
     },
     "type": "tms",
+    "content": "osm",
     "icon": "http://www.skobbler.com/images/skobbler_logo_josm.png"
 }

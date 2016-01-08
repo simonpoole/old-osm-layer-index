@@ -10,7 +10,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for help on how to contribute.
 
 ## Using this index
 
-If you are using iD, Potlatch 2 or Vespucci, you are already using this index!
+If you are using Vespucci, you are already using this index!
 
 For JOSM you can add `http://osmlab.github.io/editor-layer-index/imagery.xml` to the preference key `imagery.layers.sites` in advanced preferences. You probably want to remove the `https://josm.openstreetmap.de/maps` entry or you'll get the same layers listed twice.
 

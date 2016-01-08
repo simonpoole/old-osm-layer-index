@@ -1,9 +1,6 @@
 # OSM Editor Imagery Index
 
-The goal of this project is to maintain a canonical representation of the imagery
-overlays available to [OpenStreetMap](http://www.openstreetmap.org/) editors such as
-[iD](https://github.com/systemed/iD), [JOSM](http://josm.openstreetmap.de/), and
-[Potlatch 2](https://github.com/systemed/potlatch2).
+The goal of this project is to maintain a canonical representation of the layers available to [OpenStreetMap](http://www.openstreetmap.org/) editors.
 
 This list is purely targeted at OpenStreetMap and does not include 
 layers only useful for other projects such as 
@@ -20,9 +17,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for help on how to contribute.
 
 ## Using this index
 
-If you are using iD, Potlatch 2 or Vespucci, you are already using this index!
+If you are using Vespucci, you are already using this index!
 
-For JOSM you can add `http://osmlab.github.io/editor-imagery-index/imagery.xml` 
+For JOSM you can add `http://simonpoole.github.io/osm-layer-index/imagery.xml` 
 to the preference key `imagery.layers.sites` in advanced preferences. You probably
 want to remove the `https://josm.openstreetmap.de/maps` entry or you'll get the 
 same imagery listed twice.

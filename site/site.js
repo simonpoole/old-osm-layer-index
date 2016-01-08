@@ -32,7 +32,7 @@ d3.json("lib/world-110m.json", function(error, world) {
   svg.insert("path", ".graticule")
       .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a.id !== b.id; }))
       .attr("class", "boundary");
-  d3.json("imagery.geojson", function(error, imagery) {
+  d3.json("imagery_all.geojson", function(error, imagery) {
       var imagery_paths = svg.selectAll("path.imagery")
           .data(imagery.features)
           .enter()

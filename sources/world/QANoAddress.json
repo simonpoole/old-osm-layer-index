@@ -1,6 +1,7 @@
 {
     "url": "http://tile3.poole.ch/noaddress/{zoom}/{x}/{y}.png",
     "type": "tms",
+    "content": "osm",
     "overlay": true,
     "attribution": {
         "url": "http://qa.poole.ch/",

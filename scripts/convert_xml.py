@@ -87,5 +87,5 @@ for source in sources:
 util.indent(root)
 
 tree = ET.ElementTree(root)
-with open("imagery.xml", 'wb') as f:
+with open("imagery_all.xml", 'wb') as f:
     tree.write(f)

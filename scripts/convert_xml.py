@@ -79,5 +79,5 @@ for file in sys.argv[1:]:
 util.indent(root)
 
 tree = ET.ElementTree(root)
-with open("imagery.xml", 'wb') as f:
+with open("imagery_all.xml", 'wb') as f:
     tree.write(f)

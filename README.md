@@ -18,3 +18,11 @@ For JOSM you can add `http://osmlab.github.io/editor-layer-index/imagery.xml` to
 
 An interactive list of all layers (with a live map preview for most of them) is available at
 http://osmlab.github.com/editor-layer-index/.
+
+The pre-generated files are currently (re-create by running "make"):
+
+* imagery_all.json - all the sources in json format
+* imagery_all.geojson - all the sources in geojson format
+* imagery_all.xml - all the sources in xml format
+* imagery_tms.json - only sources with type=tms (aka tileservers and not WMS) in json format
+* imagery_id.json - as above and further excluding anything directly derived from OSM (if the content attribute has been set to "osm")

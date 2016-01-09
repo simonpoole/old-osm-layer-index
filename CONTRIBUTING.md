@@ -19,5 +19,5 @@ start of `2013` so to specify imagery taken sometime in 2013, use `"start_date":
 `"end_date": "2014"`.
 
 ### Building the combined files
-After you've made a modification, run `make` to generate `imagery.xml`, `imagery.json`,
-and `imagery.geojson`. Generating these files requires Python.
+After you've made a modification, run `make` to generate `imagery_all.xml`, `imagery_all.json`,
+`imagery_all.geojson` and some further filtered files. Generating these files requires Python.

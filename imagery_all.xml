@@ -9112,7 +9112,7 @@
     <country-code>CH</country-code>
     <min-zoom>8</min-zoom>
     <max-zoom>21</max-zoom>
-    <bounds max-lat="47.63" max-lon="8.5" min-lat="47.12" min-lon="7.7">
+    <bounds max-lat="47.695" max-lon="8.9848" min-lat="47.1584" min-lon="8.3578">
       <shape>
         <point lat="47.666081" lon="8.807602" />
         <point lat="47.65475" lon="8.808632" />

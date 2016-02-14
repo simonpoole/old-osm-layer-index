@@ -33961,10 +33961,10 @@
             "min_zoom": 8, 
             "max_zoom": 21, 
             "bbox": {
-                "min_lon": 7.7, 
-                "max_lat": 47.63, 
-                "min_lat": 47.12, 
-                "max_lon": 8.5
+                "min_lon": 8.3578, 
+                "max_lat": 47.695, 
+                "min_lat": 47.1584, 
+                "max_lon": 8.9848
             }, 
             "polygon": [
                 [

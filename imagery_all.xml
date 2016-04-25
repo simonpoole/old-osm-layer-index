@@ -11453,6 +11453,14 @@
     </bounds>
   </entry>
   <entry>
+    <name>SITN Neuch&#226;tel Orthophotos 2006 20cm</name>
+    <type>tms</type>
+    <url>http://mapproxy.osm.ch:8080/tiles/sitn2006/EPSG900913/{z}/{x}/{y}.png?origin=nw</url>
+    <attribution-text>SITN 2006</attribution-text>
+    <country-code>CH</country-code>
+    <bounds max-lat="47.17" max-lon="7.09" min-lat="46.84" min-lon="6.43" />
+  </entry>
+  <entry>
     <name>Slovakia EEA CORINE 2006</name>
     <type>tms</type>
     <url>http://www.freemap.sk/tms/clc/{zoom}/{x}/{y}.png</url>

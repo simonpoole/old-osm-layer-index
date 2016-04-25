@@ -1,0 +1,18 @@
+{
+    "url": "http://mapproxy.osm.ch:8080/tiles/sitn2006/EPSG900913/{z}/{x}/{y}.png?origin=nw",
+    "attribution": {
+        "text": "SITN 2006",
+        "required": false
+    },
+    "type": "tms",
+    "name": "SITN Neuchâtel Orthophotos 2006 20cm",
+    "country_code": "CH",
+    "extent": {
+        "bbox": {
+            "min_lon": 6.43,
+            "max_lon": 7.09,
+            "min_lat": 46.84,
+            "max_lat": 47.17
+        }
+    }
+}

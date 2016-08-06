@@ -42705,6 +42705,24 @@
     }, 
     {
         "attribution": {
+            "text": "SITN 2006", 
+            "required": false
+        }, 
+        "name": "SITN Neuch\u00e2tel Orthophotos 2006 20cm", 
+        "url": "http://mapproxy.osm.ch:8080/tiles/sitn2006/EPSG900913/{z}/{x}/{y}.png?origin=nw", 
+        "extent": {
+            "bbox": {
+                "min_lon": 6.43, 
+                "max_lat": 47.17, 
+                "min_lat": 46.84, 
+                "max_lon": 7.09
+            }
+        }, 
+        "country_code": "CH", 
+        "type": "tms"
+    }, 
+    {
+        "attribution": {
             "url": "http://www.eea.europa.eu/data-and-maps/data/clc-2006-vector-data-version-1", 
             "text": "EEA Corine 2006", 
             "required": true

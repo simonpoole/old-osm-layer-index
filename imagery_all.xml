@@ -1270,14 +1270,6 @@
     <bounds max-lat="-2.383396" max-lon="150.833478" min-lat="-2.800568" min-lon="150.388534" />
   </entry>
   <entry>
-    <name>2u</name>
-    <type>tms</type>
-    <url>http://{switch:a,b,c}.layers.openstreetmap.fr/2u/{zoom}/{x}/{y}.png</url>
-    <attribution-text mandatory="true">Tiles &#169; sly, data &#169; OpenStreetMap contributors, ODBL</attribution-text>
-    <attribution-url>http://openstreetmap.org/</attribution-url>
-    <max-zoom>19</max-zoom>
-  </entry>
-  <entry>
     <name>imagico.de OSM images for mapping: Prokletije Mountains</name>
     <type>tms</type>
     <url>http://imagico.de/map/osmim_tiles.php?layer=S2A_R136_N41_20150831T093006&amp;z={zoom}&amp;x={x}&amp;y={-y}</url>
@@ -19874,181 +19866,6 @@
     <country-code>LV</country-code>
   </entry>
   <entry>
-    <name>OpenPT Map (overlay)</name>
-    <type>tms</type>
-    <url>http://openptmap.de/tiles/{zoom}/{x}/{y}.png</url>
-    <attribution-text mandatory="true">&#169; OpenStreetMap contributors, CC-BY-SA</attribution-text>
-    <attribution-url>http://openstreetmap.org/</attribution-url>
-    <min-zoom>5</min-zoom>
-    <max-zoom>16</max-zoom>
-    <bounds max-lat="55.095236" max-lon="17.20171" min-lat="45.795325" min-lon="5.88008">
-      <shape>
-        <point lat="53.665658" lon="6.490107" />
-        <point lat="53.984826" lon="8.566535" />
-        <point lat="54.709715" lon="8.133946" />
-        <point lat="55.095236" lon="8.317796" />
-        <point lat="54.778383" lon="10.188744" />
-        <point lat="54.477884" lon="10.632148" />
-        <point lat="54.62215" lon="11.270216" />
-        <point lat="54.370924" lon="11.681176" />
-        <point lat="54.38982" lon="12.027247" />
-        <point lat="54.853162" lon="13.325014" />
-        <point lat="54.697217" lon="13.919825" />
-        <point lat="54.130827" lon="14.211822" />
-        <point lat="53.266506" lon="14.493005" />
-        <point lat="52.876649" lon="14.157749" />
-        <point lat="52.581937" lon="14.752558" />
-        <point lat="51.017154" lon="15.09863" />
-        <point lat="50.839928" lon="14.936409" />
-        <point lat="50.792098" lon="14.730929" />
-        <point lat="50.880886" lon="14.438931" />
-        <point lat="50.393904" lon="12.957314" />
-        <point lat="50.393904" lon="12.51391" />
-        <point lat="50.117324" lon="12.30843" />
-        <point lat="49.908834" lon="12.611242" />
-        <point lat="49.734401" lon="12.394948" />
-        <point lat="49.404763" lon="12.773463" />
-        <point lat="48.603104" lon="14.146934" />
-        <point lat="48.653139" lon="14.676855" />
-        <point lat="49.04455" lon="15.066185" />
-        <point lat="48.745931" lon="16.26662" />
-        <point lat="48.874129" lon="16.493729" />
-        <point lat="48.717397" lon="16.904689" />
-        <point lat="48.531538" lon="16.937133" />
-        <point lat="48.382316" lon="16.838469" />
-        <point lat="48.010204" lon="17.20171" />
-        <point lat="47.69976" lon="17.121415" />
-        <point lat="47.658571" lon="16.777292" />
-        <point lat="47.74606" lon="16.609054" />
-        <point lat="47.663721" lon="16.410228" />
-        <point lat="47.614771" lon="16.735233" />
-        <point lat="47.358974" lon="16.555524" />
-        <point lat="46.976854" lon="16.479053" />
-        <point lat="46.809629" lon="16.035517" />
-        <point lat="46.636633" lon="16.050811" />
-        <point lat="46.631382" lon="14.957266" />
-        <point lat="46.389287" lon="14.574908" />
-        <point lat="46.689115" lon="12.395466" />
-        <point lat="47.055061" lon="12.150756" />
-        <point lat="46.914206" lon="11.118389" />
-        <point lat="46.77298" lon="11.03427" />
-        <point lat="46.846254" lon="10.483674" />
-        <point lat="46.547297" lon="10.460732" />
-        <point lat="46.573588" lon="10.101316" />
-        <point lat="46.183187" lon="10.200729" />
-        <point lat="46.362907" lon="9.894842" />
-        <point lat="46.288976" lon="9.596603" />
-        <point lat="46.505206" lon="9.298363" />
-        <point lat="46.257261" lon="9.283069" />
-        <point lat="45.795325" lon="9.053654" />
-        <point lat="46.246685" lon="8.426586" />
-        <point lat="46.473616" lon="8.44188" />
-        <point lat="45.928461" lon="7.87599" />
-        <point lat="45.864596" lon="7.095979" />
-        <point lat="46.162004" lon="6.774798" />
-        <point lat="46.405108" lon="6.820681" />
-        <point lat="46.457814" lon="6.545383" />
-        <point lat="46.384012" lon="6.331262" />
-        <point lat="46.246685" lon="6.384793" />
-        <point lat="46.087802" lon="5.895374" />
-        <point lat="46.368184" lon="6.117142" />
-        <point lat="46.599866" lon="6.0942" />
-        <point lat="46.778217" lon="6.438323" />
-        <point lat="46.929875" lon="6.430676" />
-        <point lat="47.346022" lon="7.080685" />
-        <point lat="47.371923" lon="6.843623" />
-        <point lat="47.501237" lon="6.996566" />
-        <point lat="47.506403" lon="7.180098" />
-        <point lat="47.439206" lon="7.233628" />
-        <point lat="47.480568" lon="7.455396" />
-        <point lat="48.645735" lon="7.784224" />
-        <point lat="49.02827" lon="8.197171" />
-        <point lat="49.038297" lon="7.600692" />
-        <point lat="49.163468" lon="7.447749" />
-        <point lat="49.103426" lon="7.203039" />
-        <point lat="49.163468" lon="6.667738" />
-        <point lat="49.333193" lon="6.637149" />
-        <point lat="49.457619" lon="6.354204" />
-        <point lat="49.804337" lon="6.545383" />
-        <point lat="49.873384" lon="6.247144" />
-        <point lat="50.153488" lon="6.078906" />
-        <point lat="50.368593" lon="6.361851" />
-        <point lat="50.703963" lon="6.086553" />
-        <point lat="51.051375" lon="5.88008" />
-        <point lat="51.161808" lon="6.124789" />
-        <point lat="51.491527" lon="6.193613" />
-        <point lat="51.75265" lon="5.964198" />
-        <point lat="51.889729" lon="6.025376" />
-        <point lat="51.866124" lon="6.453617" />
-        <point lat="51.955755" lon="6.843623" />
-        <point lat="52.049911" lon="6.690679" />
-        <point lat="52.22826" lon="7.004213" />
-        <point lat="52.452525" lon="7.019507" />
-        <point lat="52.466503" lon="6.698326" />
-        <point lat="52.652463" lon="6.690679" />
-        <point lat="52.638543" lon="7.034802" />
-        <point lat="52.833015" lon="7.073038" />
-        <point lat="52.985206" lon="7.218334" />
-        <point lat="53.342809" lon="7.195392" />
-        <point lat="53.32911" lon="7.004213" />
-      </shape>
-    </bounds>
-  </entry>
-  <entry>
-    <name>OpenStreetMap (German Language)</name>
-    <type>tms</type>
-    <url>http://toolserver.org/tiles/osm-locale-de/{zoom}/{x}/{y}.png</url>
-    <attribution-text mandatory="true">&#169; OpenStreetMap contributors, CC-BY-SA</attribution-text>
-    <attribution-url>http://openstreetmap.org/</attribution-url>
-    <max-zoom>17</max-zoom>
-  </entry>
-  <entry>
-    <name>OpenStreetMap (German Style)</name>
-    <type>tms</type>
-    <url>http://{switch:a,b,c,d}.tile.openstreetmap.de/tiles/osmde/{zoom}/{x}/{y}.png</url>
-    <attribution-text>&#169; OpenStreetMap contributors, CC-BY-SA</attribution-text>
-    <attribution-url>http://openstreetmap.org/</attribution-url>
-    <max-zoom>18</max-zoom>
-  </entry>
-  <entry>
-    <name>OpenStreetMap (Sorbian Language)</name>
-    <type>tms</type>
-    <url>http://toolserver.org/tiles/osm-locale-hsb/{zoom}/{x}/{y}.png</url>
-    <attribution-text mandatory="true">&#169; OpenStreetMap contributors, CC-BY-SA</attribution-text>
-    <attribution-url>http://openstreetmap.org/</attribution-url>
-    <max-zoom>17</max-zoom>
-  </entry>
-  <entry>
-    <name>OSM Inspector: Addresses (EU)</name>
-    <type>tms</type>
-    <url>http://tools.geofabrik.de/osmi/tiles/addresses/{zoom}/{x}/{y}.png</url>
-    <attribution-text mandatory="true">&#169; Geofabrik GmbH, OpenStreetMap contributors, CC-BY-SA</attribution-text>
-    <attribution-url>http://tools.geofabrik.de/osmi/</attribution-url>
-    <min-zoom>0</min-zoom>
-    <max-zoom>18</max-zoom>
-    <bounds max-lat="71.45" max-lon="41.75" min-lat="35.15" min-lon="-24.9" />
-  </entry>
-  <entry>
-    <name>OSM Inspector: Boundaries (EU)</name>
-    <type>tms</type>
-    <url>http://tools.geofabrik.de/osmi/tiles/boundaries/{zoom}/{x}/{y}.png</url>
-    <attribution-text mandatory="true">&#169; Geofabrik GmbH, OpenStreetMap contributors, CC-BY-SA</attribution-text>
-    <attribution-url>http://tools.geofabrik.de/osmi/</attribution-url>
-    <min-zoom>0</min-zoom>
-    <max-zoom>18</max-zoom>
-    <bounds max-lat="71.45" max-lon="41.75" min-lat="35.15" min-lon="-24.9" />
-  </entry>
-  <entry>
-    <name>OSM Inspector: Routing (EU)</name>
-    <type>tms</type>
-    <url>http://tools.geofabrik.de/osmi/tiles/routing/{zoom}/{x}/{y}.png</url>
-    <attribution-text mandatory="true">&#169; Geofabrik GmbH, OpenStreetMap contributors, CC-BY-SA</attribution-text>
-    <attribution-url>http://tools.geofabrik.de/osmi/</attribution-url>
-    <min-zoom>0</min-zoom>
-    <max-zoom>18</max-zoom>
-    <bounds max-lat="71.45" max-lon="41.75" min-lat="35.15" min-lon="-24.9" />
-  </entry>
-  <entry>
     <name>Geoportal.gov.pl (Orthophotomap)</name>
     <type>tms</type>
     <url>http://wms.misek.pl/geoportal.orto/tms/{zoom}/{x}/{y}</url>
@@ -20158,22 +19975,6 @@
         <point lat="53.995852" lon="14.22205" />
       </shape>
     </bounds>
-  </entry>
-  <entry>
-    <name>Public Transport (&#214;PNV)</name>
-    <type>tms</type>
-    <url>http://tile.memomaps.de/tilegen/{zoom}/{x}/{y}.png</url>
-    <attribution-text mandatory="true">&#169; OpenStreetMap contributors, CC-BY-SA</attribution-text>
-    <attribution-url>http://&#246;pnvkarte.de/</attribution-url>
-    <max-zoom>18</max-zoom>
-  </entry>
-  <entry>
-    <name>SITN Neuch&#226;tel Orthophotos 2006 20cm</name>
-    <type>tms</type>
-    <url>http://mapproxy.osm.ch:8080/tiles/sitn2006/EPSG900913/{z}/{x}/{y}.png?origin=nw</url>
-    <attribution-text>SITN 2006</attribution-text>
-    <country-code>CH</country-code>
-    <bounds max-lat="47.17" max-lon="7.09" min-lat="46.84" min-lon="6.43" />
   </entry>
   <entry>
     <name>Freemap.sk Car</name>
@@ -20656,51 +20457,6 @@
     <country-code>SK</country-code>
     <max-zoom>12</max-zoom>
     <bounds max-lat="49.503032" max-lon="22.838832" min-lat="47.492724" min-lon="16.819695" />
-  </entry>
-  <entry>
-    <name>Streets NRW Geofabrik.de</name>
-    <type>wms</type>
-    <url>http://tools.geofabrik.de/osmi/view/strassennrw/wxs?REQUEST=GetMap&amp;SERVICE=wms&amp;VERSION=1.1.1&amp;FORMAT=image/png&amp;SRS={proj}&amp;STYLES=&amp;LAYERS=unzugeordnete_strassen,kreisstrassen_ast,kreisstrassen,landesstrassen_ast,landesstrassen,bundesstrassen_ast,bundesstrassen,autobahnen_ast,autobahnen,endpunkte&amp;WIDTH={width}&amp;HEIGHT={height}&amp;BBOX={bbox}</url>
-    <projections>
-      <code>EPSG:4326</code>
-      <code>EPSG:900913</code>
-    </projections>
-    <bounds max-lat="52.53802" max-lon="52.53802" min-lat="50.310813" min-lon="5.881575">
-      <shape>
-        <point lat="51.826511" lon="5.927293" />
-        <point lat="51.662494" lon="6.012007" />
-        <point lat="51.513156" lon="6.198579" />
-        <point lat="51.37445" lon="6.196562" />
-        <point lat="51.23848" lon="6.072517" />
-        <point lat="51.101051" lon="6.0389" />
-        <point lat="51.020765" lon="5.881574" />
-        <point lat="50.718666" lon="6.01873" />
-        <point lat="50.499359" lon="6.206983" />
-        <point lat="50.378604" lon="6.319935" />
-        <point lat="50.310813" lon="6.39927" />
-        <point lat="50.324551" lon="6.724678" />
-        <point lat="50.510477" lon="7.212791" />
-        <point lat="50.545524" lon="7.55837" />
-        <point lat="50.882687" lon="7.801754" />
-        <point lat="50.682043" lon="8.05724" />
-        <point lat="50.653919" lon="8.301968" />
-        <point lat="51.164336" lon="8.771256" />
-        <point lat="51.348632" lon="8.738984" />
-        <point lat="51.389766" lon="9.021363" />
-        <point lat="51.300736" lon="9.310466" />
-        <point lat="51.522988" lon="9.307776" />
-        <point lat="51.641638" lon="9.487961" />
-        <point lat="51.874687" lon="9.478549" />
-        <point lat="52.499563" lon="9.154485" />
-        <point lat="52.53802" lon="8.636789" />
-        <point lat="52.473361" lon="7.546268" />
-        <point lat="52.336362" lon="7.017815" />
-        <point lat="52.183276" lon="6.87797" />
-        <point lat="51.901245" lon="6.332037" />
-        <point lat="51.921153" lon="6.067138" />
-        <point lat="51.826511" lon="5.927293" />
-      </shape>
-    </bounds>
   </entry>
   <entry>
     <name>imagico.de OSM images for mapping: Bouvet Island</name>
@@ -26271,6 +26027,14 @@
     <max-zoom>17</max-zoom>
   </entry>
   <entry>
+    <name>OpenStreetMap (German Style)</name>
+    <type>tms</type>
+    <url>http://{switch:a,b,c,d}.tile.openstreetmap.de/tiles/osmde/{zoom}/{x}/{y}.png</url>
+    <attribution-text>&#169; OpenStreetMap contributors, CC-BY-SA</attribution-text>
+    <attribution-url>http://openstreetmap.org/</attribution-url>
+    <max-zoom>18</max-zoom>
+  </entry>
+  <entry>
     <name>OpenStreetMap GPS traces</name>
     <type>tms</type>
     <url>http://{switch:a,b,c}.gps-tile.openstreetmap.org/lines/{zoom}/{x}/{y}.png</url>
@@ -26298,6 +26062,15 @@
     <default>true</default>
     <icon>data:image/png;base64,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</icon>
     <max-zoom>19</max-zoom>
+  </entry>
+  <entry>
+    <name>OSM Inspector: Addresses</name>
+    <type>tms</type>
+    <url>http://tools.geofabrik.de/osmi/tiles/addresses/{zoom}/{x}/{y}.png</url>
+    <attribution-text mandatory="true">&#169; Geofabrik GmbH, OpenStreetMap contributors, CC-BY-SA</attribution-text>
+    <attribution-url>http://tools.geofabrik.de/osmi/</attribution-url>
+    <min-zoom>0</min-zoom>
+    <max-zoom>18</max-zoom>
   </entry>
   <entry>
     <name>OSM Inspector: Geometry</name>
@@ -26341,6 +26114,15 @@
     <name>OSM Inspector: Places</name>
     <type>tms</type>
     <url>http://tools.geofabrik.de/osmi/tiles/places/{zoom}/{x}/{y}.png</url>
+    <attribution-text mandatory="true">&#169; Geofabrik GmbH, OpenStreetMap contributors, CC-BY-SA</attribution-text>
+    <attribution-url>http://tools.geofabrik.de/osmi/</attribution-url>
+    <min-zoom>0</min-zoom>
+    <max-zoom>18</max-zoom>
+  </entry>
+  <entry>
+    <name>OSM Inspector: Routing</name>
+    <type>tms</type>
+    <url>http://tools.geofabrik.de/osmi/tiles/routing/{zoom}/{x}/{y}.png</url>
     <attribution-text mandatory="true">&#169; Geofabrik GmbH, OpenStreetMap contributors, CC-BY-SA</attribution-text>
     <attribution-url>http://tools.geofabrik.de/osmi/</attribution-url>
     <min-zoom>0</min-zoom>

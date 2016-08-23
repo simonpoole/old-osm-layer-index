@@ -4244,19 +4244,6 @@
         "name": "imagico.de OSM images for mapping: New Ireland"
     },
     {
-        "url": "http://{switch:a,b,c}.layers.openstreetmap.fr/2u/{zoom}/{x}/{y}.png",
-        "type": "tms",
-        "attribution": {
-            "url": "http://openstreetmap.org/",
-            "text": "Tiles \u00a9 sly, data \u00a9 OpenStreetMap contributors, ODBL",
-            "required": true
-        },
-        "name": "2u",
-        "extent": {
-            "max_zoom": 19
-        }
-    },
-    {
         "extent": {
             "min_zoom": 0,
             "max_zoom": 14,
@@ -72397,564 +72384,6 @@
         "country_code": "LV"
     },
     {
-        "url": "http://openptmap.de/tiles/{zoom}/{x}/{y}.png",
-        "type": "tms",
-        "attribution": {
-            "url": "http://openstreetmap.org/",
-            "text": "\u00a9 OpenStreetMap contributors, CC-BY-SA",
-            "required": true
-        },
-        "name": "OpenPT Map (overlay)",
-        "extent": {
-            "min_zoom": 5,
-            "max_zoom": 16,
-            "bbox": {
-                "min_lon": 5.8800796,
-                "max_lat": 55.0952362,
-                "min_lat": 45.7953255,
-                "max_lon": 17.2017097
-            },
-            "polygon": [
-                [
-                    [
-                        6.4901072,
-                        53.665658
-                    ],
-                    [
-                        8.5665347,
-                        53.9848257
-                    ],
-                    [
-                        8.1339457,
-                        54.709715
-                    ],
-                    [
-                        8.317796,
-                        55.0952362
-                    ],
-                    [
-                        10.1887438,
-                        54.7783834
-                    ],
-                    [
-                        10.6321475,
-                        54.4778841
-                    ],
-                    [
-                        11.2702164,
-                        54.6221504
-                    ],
-                    [
-                        11.681176,
-                        54.3709243
-                    ],
-                    [
-                        12.0272473,
-                        54.3898199
-                    ],
-                    [
-                        13.3250145,
-                        54.8531617
-                    ],
-                    [
-                        13.9198245,
-                        54.6972173
-                    ],
-                    [
-                        14.2118221,
-                        54.1308273
-                    ],
-                    [
-                        14.493005,
-                        53.2665063
-                    ],
-                    [
-                        14.1577485,
-                        52.8766495
-                    ],
-                    [
-                        14.7525584,
-                        52.5819369
-                    ],
-                    [
-                        15.0986297,
-                        51.0171541
-                    ],
-                    [
-                        14.9364088,
-                        50.8399279
-                    ],
-                    [
-                        14.730929,
-                        50.7920977
-                    ],
-                    [
-                        14.4389313,
-                        50.8808862
-                    ],
-                    [
-                        12.9573138,
-                        50.3939044
-                    ],
-                    [
-                        12.51391,
-                        50.3939044
-                    ],
-                    [
-                        12.3084302,
-                        50.1173237
-                    ],
-                    [
-                        12.6112425,
-                        49.9088337
-                    ],
-                    [
-                        12.394948,
-                        49.7344006
-                    ],
-                    [
-                        12.7734634,
-                        49.4047626
-                    ],
-                    [
-                        14.1469337,
-                        48.6031036
-                    ],
-                    [
-                        14.6768553,
-                        48.6531391
-                    ],
-                    [
-                        15.0661855,
-                        49.0445497
-                    ],
-                    [
-                        16.2666202,
-                        48.7459305
-                    ],
-                    [
-                        16.4937294,
-                        48.8741286
-                    ],
-                    [
-                        16.904689,
-                        48.7173975
-                    ],
-                    [
-                        16.9371332,
-                        48.5315383
-                    ],
-                    [
-                        16.8384693,
-                        48.3823161
-                    ],
-                    [
-                        17.2017097,
-                        48.010204
-                    ],
-                    [
-                        17.1214145,
-                        47.6997605
-                    ],
-                    [
-                        16.777292,
-                        47.6585709
-                    ],
-                    [
-                        16.6090543,
-                        47.7460598
-                    ],
-                    [
-                        16.410228,
-                        47.6637214
-                    ],
-                    [
-                        16.7352326,
-                        47.6147714
-                    ],
-                    [
-                        16.5555242,
-                        47.3589738
-                    ],
-                    [
-                        16.4790525,
-                        46.9768539
-                    ],
-                    [
-                        16.0355168,
-                        46.8096295
-                    ],
-                    [
-                        16.0508112,
-                        46.6366332
-                    ],
-                    [
-                        14.9572663,
-                        46.6313822
-                    ],
-                    [
-                        14.574908,
-                        46.3892866
-                    ],
-                    [
-                        12.3954655,
-                        46.6891149
-                    ],
-                    [
-                        12.1507562,
-                        47.0550608
-                    ],
-                    [
-                        11.1183887,
-                        46.9142058
-                    ],
-                    [
-                        11.0342699,
-                        46.7729797
-                    ],
-                    [
-                        10.4836739,
-                        46.8462544
-                    ],
-                    [
-                        10.4607324,
-                        46.5472973
-                    ],
-                    [
-                        10.1013156,
-                        46.5735879
-                    ],
-                    [
-                        10.2007287,
-                        46.1831867
-                    ],
-                    [
-                        9.8948421,
-                        46.3629068
-                    ],
-                    [
-                        9.5966026,
-                        46.2889758
-                    ],
-                    [
-                        9.2983631,
-                        46.505206
-                    ],
-                    [
-                        9.2830687,
-                        46.2572605
-                    ],
-                    [
-                        9.0536537,
-                        45.7953255
-                    ],
-                    [
-                        8.4265861,
-                        46.2466846
-                    ],
-                    [
-                        8.4418804,
-                        46.4736161
-                    ],
-                    [
-                        7.8759901,
-                        45.9284607
-                    ],
-                    [
-                        7.0959791,
-                        45.8645956
-                    ],
-                    [
-                        6.7747981,
-                        46.1620044
-                    ],
-                    [
-                        6.8206811,
-                        46.4051083
-                    ],
-                    [
-                        6.5453831,
-                        46.4578142
-                    ],
-                    [
-                        6.3312624,
-                        46.3840116
-                    ],
-                    [
-                        6.3847926,
-                        46.2466846
-                    ],
-                    [
-                        5.8953739,
-                        46.0878021
-                    ],
-                    [
-                        6.1171418,
-                        46.3681838
-                    ],
-                    [
-                        6.0942003,
-                        46.5998657
-                    ],
-                    [
-                        6.4383228,
-                        46.7782169
-                    ],
-                    [
-                        6.4306756,
-                        46.9298747
-                    ],
-                    [
-                        7.0806847,
-                        47.3460216
-                    ],
-                    [
-                        6.8436226,
-                        47.3719227
-                    ],
-                    [
-                        6.9965659,
-                        47.5012373
-                    ],
-                    [
-                        7.1800979,
-                        47.5064033
-                    ],
-                    [
-                        7.2336281,
-                        47.439206
-                    ],
-                    [
-                        7.4553959,
-                        47.4805683
-                    ],
-                    [
-                        7.7842241,
-                        48.645735
-                    ],
-                    [
-                        8.1971711,
-                        49.0282701
-                    ],
-                    [
-                        7.6006921,
-                        49.0382974
-                    ],
-                    [
-                        7.4477487,
-                        49.1634679
-                    ],
-                    [
-                        7.2030394,
-                        49.1034255
-                    ],
-                    [
-                        6.6677378,
-                        49.1634679
-                    ],
-                    [
-                        6.6371491,
-                        49.3331933
-                    ],
-                    [
-                        6.3542039,
-                        49.4576194
-                    ],
-                    [
-                        6.5453831,
-                        49.8043366
-                    ],
-                    [
-                        6.2471436,
-                        49.873384
-                    ],
-                    [
-                        6.0789059,
-                        50.1534883
-                    ],
-                    [
-                        6.3618511,
-                        50.3685934
-                    ],
-                    [
-                        6.0865531,
-                        50.7039632
-                    ],
-                    [
-                        5.8800796,
-                        51.0513752
-                    ],
-                    [
-                        6.1247889,
-                        51.1618085
-                    ],
-                    [
-                        6.1936134,
-                        51.491527
-                    ],
-                    [
-                        5.9641984,
-                        51.7526501
-                    ],
-                    [
-                        6.0253758,
-                        51.8897286
-                    ],
-                    [
-                        6.4536171,
-                        51.8661241
-                    ],
-                    [
-                        6.8436226,
-                        51.9557552
-                    ],
-                    [
-                        6.6906793,
-                        52.0499105
-                    ],
-                    [
-                        7.0042131,
-                        52.2282603
-                    ],
-                    [
-                        7.0195074,
-                        52.4525245
-                    ],
-                    [
-                        6.6983264,
-                        52.4665032
-                    ],
-                    [
-                        6.6906793,
-                        52.6524628
-                    ],
-                    [
-                        7.0348017,
-                        52.6385432
-                    ],
-                    [
-                        7.0730376,
-                        52.8330151
-                    ],
-                    [
-                        7.2183337,
-                        52.9852064
-                    ],
-                    [
-                        7.1953922,
-                        53.3428087
-                    ],
-                    [
-                        7.0042131,
-                        53.3291098
-                    ]
-                ]
-            ]
-        }
-    },
-    {
-        "url": "http://toolserver.org/tiles/osm-locale-de/{zoom}/{x}/{y}.png",
-        "type": "tms",
-        "attribution": {
-            "url": "http://openstreetmap.org/",
-            "text": "\u00a9 OpenStreetMap contributors, CC-BY-SA",
-            "required": true
-        },
-        "name": "OpenStreetMap (German Language)",
-        "extent": {
-            "max_zoom": 17
-        }
-    },
-    {
-        "url": "http://{switch:a,b,c,d}.tile.openstreetmap.de/tiles/osmde/{zoom}/{x}/{y}.png",
-        "type": "tms",
-        "attribution": {
-            "url": "http://openstreetmap.org/",
-            "text": "\u00a9 OpenStreetMap contributors, CC-BY-SA",
-            "required": false
-        },
-        "name": "OpenStreetMap (German Style)",
-        "extent": {
-            "max_zoom": 18
-        }
-    },
-    {
-        "url": "http://toolserver.org/tiles/osm-locale-hsb/{zoom}/{x}/{y}.png",
-        "type": "tms",
-        "attribution": {
-            "url": "http://openstreetmap.org/",
-            "text": "\u00a9 OpenStreetMap contributors, CC-BY-SA",
-            "required": true
-        },
-        "name": "OpenStreetMap (Sorbian Language)",
-        "extent": {
-            "max_zoom": 17
-        }
-    },
-    {
-        "attribution": {
-            "url": "http://tools.geofabrik.de/osmi/",
-            "text": "\u00a9 Geofabrik GmbH, OpenStreetMap contributors, CC-BY-SA",
-            "required": true
-        },
-        "name": "OSM Inspector: Addresses (EU)",
-        "overlay": true,
-        "url": "http://tools.geofabrik.de/osmi/tiles/addresses/{zoom}/{x}/{y}.png",
-        "extent": {
-            "min_zoom": 0,
-            "max_zoom": 18,
-            "bbox": {
-                "min_lon": -24.9,
-                "max_lon": 41.75,
-                "min_lat": 35.15,
-                "max_lat": 71.45
-            }
-        },
-        "type": "tms"
-    },
-    {
-        "attribution": {
-            "url": "http://tools.geofabrik.de/osmi/",
-            "text": "\u00a9 Geofabrik GmbH, OpenStreetMap contributors, CC-BY-SA",
-            "required": true
-        },
-        "name": "OSM Inspector: Boundaries (EU)",
-        "overlay": true,
-        "url": "http://tools.geofabrik.de/osmi/tiles/boundaries/{zoom}/{x}/{y}.png",
-        "extent": {
-            "min_zoom": 0,
-            "max_zoom": 18,
-            "bbox": {
-                "min_lon": -24.9,
-                "max_lon": 41.75,
-                "min_lat": 35.15,
-                "max_lat": 71.45
-            }
-        },
-        "type": "tms"
-    },
-    {
-        "attribution": {
-            "url": "http://tools.geofabrik.de/osmi/",
-            "text": "\u00a9 Geofabrik GmbH, OpenStreetMap contributors, CC-BY-SA",
-            "required": true
-        },
-        "name": "OSM Inspector: Routing (EU)",
-        "overlay": true,
-        "url": "http://tools.geofabrik.de/osmi/tiles/routing/{zoom}/{x}/{y}.png",
-        "extent": {
-            "min_zoom": 0,
-            "max_zoom": 18,
-            "bbox": {
-                "min_lon": -24.9,
-                "max_lon": 41.75,
-                "min_lat": 35.15,
-                "max_lat": 71.45
-            }
-        },
-        "type": "tms"
-    },
-    {
         "attribution": {
             "text": "Copyright \u00a9 G\u0142\u00f3wny Urz\u0105d Geodezji i Kartografii.",
             "required": true
@@ -73363,37 +72792,6 @@
         "type": "tms",
         "best": true,
         "icon": "http://i.imgur.com/aFlvMpM.png"
-    },
-    {
-        "url": "http://tile.memomaps.de/tilegen/{zoom}/{x}/{y}.png",
-        "type": "tms",
-        "attribution": {
-            "url": "http://\u00f6pnvkarte.de/",
-            "text": "\u00a9 OpenStreetMap contributors, CC-BY-SA",
-            "required": true
-        },
-        "name": "Public Transport (\u00d6PNV)",
-        "extent": {
-            "max_zoom": 18
-        }
-    },
-    {
-        "attribution": {
-            "text": "SITN 2006",
-            "required": false
-        },
-        "name": "SITN Neuch\u00e2tel Orthophotos 2006 20cm",
-        "url": "http://mapproxy.osm.ch:8080/tiles/sitn2006/EPSG900913/{z}/{x}/{y}.png?origin=nw",
-        "extent": {
-            "bbox": {
-                "min_lon": 6.43,
-                "max_lat": 47.17,
-                "min_lat": 46.84,
-                "max_lon": 7.09
-            }
-        },
-        "country_code": "CH",
-        "type": "tms"
     },
     {
         "attribution": {
@@ -75075,155 +74473,6 @@
         "type": "tms",
         "name": "Slovakia Historic Maps",
         "country_code": "SK"
-    },
-    {
-        "url": "http://tools.geofabrik.de/osmi/view/strassennrw/wxs?REQUEST=GetMap&SERVICE=wms&VERSION=1.1.1&FORMAT=image/png&SRS={proj}&STYLES=&LAYERS=unzugeordnete_strassen,kreisstrassen_ast,kreisstrassen,landesstrassen_ast,landesstrassen,bundesstrassen_ast,bundesstrassen,autobahnen_ast,autobahnen,endpunkte&WIDTH={width}&HEIGHT={height}&BBOX={bbox}",
-        "type": "wms",
-        "name": "Streets NRW Geofabrik.de",
-        "extent": {
-            "bbox": {
-                "min_lon": 5.881575,
-                "max_lat": 52.53802,
-                "min_lat": 50.310813,
-                "max_lon": 52.53802
-            },
-            "polygon": [
-                [
-                    [
-                        5.927293,
-                        51.826511
-                    ],
-                    [
-                        6.012007,
-                        51.662494
-                    ],
-                    [
-                        6.198579,
-                        51.513156
-                    ],
-                    [
-                        6.196562,
-                        51.37445
-                    ],
-                    [
-                        6.072517,
-                        51.23848
-                    ],
-                    [
-                        6.0389,
-                        51.101051
-                    ],
-                    [
-                        5.881574,
-                        51.020765
-                    ],
-                    [
-                        6.01873,
-                        50.718666
-                    ],
-                    [
-                        6.206983,
-                        50.499359
-                    ],
-                    [
-                        6.319935,
-                        50.378604
-                    ],
-                    [
-                        6.39927,
-                        50.310813
-                    ],
-                    [
-                        6.724678,
-                        50.324551
-                    ],
-                    [
-                        7.212791,
-                        50.510477
-                    ],
-                    [
-                        7.55837,
-                        50.545524
-                    ],
-                    [
-                        7.801754,
-                        50.882687
-                    ],
-                    [
-                        8.05724,
-                        50.682043
-                    ],
-                    [
-                        8.301968,
-                        50.653919
-                    ],
-                    [
-                        8.771256,
-                        51.164336
-                    ],
-                    [
-                        8.738984,
-                        51.348632
-                    ],
-                    [
-                        9.021363,
-                        51.389766
-                    ],
-                    [
-                        9.310466,
-                        51.300736
-                    ],
-                    [
-                        9.307776,
-                        51.522988
-                    ],
-                    [
-                        9.487961,
-                        51.641638
-                    ],
-                    [
-                        9.478549,
-                        51.874687
-                    ],
-                    [
-                        9.154485,
-                        52.499563
-                    ],
-                    [
-                        8.636789,
-                        52.53802
-                    ],
-                    [
-                        7.546268,
-                        52.473361
-                    ],
-                    [
-                        7.017815,
-                        52.336362
-                    ],
-                    [
-                        6.87797,
-                        52.183276
-                    ],
-                    [
-                        6.332037,
-                        51.901245
-                    ],
-                    [
-                        6.067138,
-                        51.921153
-                    ],
-                    [
-                        5.927293,
-                        51.826511
-                    ]
-                ]
-            ]
-        },
-        "available_projections": [
-            "EPSG:4326",
-            "EPSG:900913"
-        ]
     },
     {
         "attribution": {
@@ -95653,6 +94902,19 @@
         }
     },
     {
+        "url": "http://{switch:a,b,c,d}.tile.openstreetmap.de/tiles/osmde/{zoom}/{x}/{y}.png",
+        "type": "tms",
+        "attribution": {
+            "url": "http://openstreetmap.org/",
+            "text": "\u00a9 OpenStreetMap contributors, CC-BY-SA",
+            "required": false
+        },
+        "name": "OpenStreetMap (German Style)",
+        "extent": {
+            "max_zoom": 18
+        }
+    },
+    {
         "attribution": {
             "url": "http://www.openstreetmap.org/copyright",
             "text": "\u00a9 OpenStreetMap contributors",
@@ -95701,6 +94963,21 @@
         "type": "tms",
         "id": "MAPNIK",
         "icon": "data:image/png;base64,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"
+    },
+    {
+        "attribution": {
+            "url": "http://tools.geofabrik.de/osmi/",
+            "text": "\u00a9 Geofabrik GmbH, OpenStreetMap contributors, CC-BY-SA",
+            "required": true
+        },
+        "name": "OSM Inspector: Addresses",
+        "overlay": true,
+        "url": "http://tools.geofabrik.de/osmi/tiles/addresses/{zoom}/{x}/{y}.png",
+        "extent": {
+            "min_zoom": 0,
+            "max_zoom": 18
+        },
+        "type": "tms"
     },
     {
         "attribution": {
@@ -95775,6 +95052,21 @@
         "overlay": true,
         "url": "http://tools.geofabrik.de/osmi/tiles/places/{zoom}/{x}/{y}.png",
         "content": "osm",
+        "extent": {
+            "min_zoom": 0,
+            "max_zoom": 18
+        },
+        "type": "tms"
+    },
+    {
+        "attribution": {
+            "url": "http://tools.geofabrik.de/osmi/",
+            "text": "\u00a9 Geofabrik GmbH, OpenStreetMap contributors, CC-BY-SA",
+            "required": true
+        },
+        "name": "OSM Inspector: Routing",
+        "overlay": true,
+        "url": "http://tools.geofabrik.de/osmi/tiles/routing/{zoom}/{x}/{y}.png",
         "extent": {
             "min_zoom": 0,
             "max_zoom": 18

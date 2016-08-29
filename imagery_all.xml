@@ -2889,6 +2889,16 @@
     </bounds>
   </entry>
   <entry>
+    <name>Kanton Basel-Stadt 2015</name>
+    <type>tms</type>
+    <url>http://mapproxy.osm.ch:8080/tiles/KTBASELSTADT2015/EPSG900913/{z}/{x}/{y}.png?origin=nw</url>
+    <attribution-text mandatory="true">Kanton Basel-Stadt OF 2015</attribution-text>
+    <country-code>CH</country-code>
+    <min-zoom>8</min-zoom>
+    <max-zoom>21</max-zoom>
+    <bounds max-lat="47.6342" max-lon="7.784" min-lat="47.4817" min-lon="7.492" />
+  </entry>
+  <entry>
     <name>Kanton Solothurn 25cm (SOGIS 2014-2015)</name>
     <type>tms</type>
     <url>http://mapproxy.osm.ch:8080/tiles/sogis2014/EPSG900913/{z}/{x}/{y}.png?origin=nw</url>

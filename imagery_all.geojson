@@ -10593,6 +10593,47 @@
         },
         {
             "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            7.492,
+                            47.4817
+                        ],
+                        [
+                            7.492,
+                            47.6342
+                        ],
+                        [
+                            7.784,
+                            47.6342
+                        ],
+                        [
+                            7.784,
+                            47.4817
+                        ],
+                        [
+                            7.492,
+                            47.4817
+                        ]
+                    ]
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "url": "http://mapproxy.osm.ch:8080/tiles/KTBASELSTADT2015/EPSG900913/{z}/{x}/{y}.png?origin=nw",
+                "country-code": "CH",
+                "type": "tms",
+                "name": "Kanton Basel-Stadt 2015",
+                "attribution": {
+                    "url": null,
+                    "text": "Kanton Basel-Stadt OF 2015",
+                    "required": true
+                }
+            }
+        },
+        {
+            "geometry": {
                 "type": "MultiPolygon",
                 "coordinates": [
                     [

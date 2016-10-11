@@ -1,0 +1,16 @@
+{
+    "type": "Feature",
+    "properties": {
+        "url": "https://{switch:a,b,c}.tile.thunderforest.com/landscape/{zoom}/{x}/{y}.png",
+        "attribution": {
+            "url": "http://www.thunderforest.com/terms/",
+            "text": "Maps © Thunderforest, Data © OpenStreetMap contributors",
+            "required": true
+        },
+        "max_zoom": 22,
+        "type": "tms",
+        "content": "osm",
+        "name": "Thunderforest Landscape"
+    },
+    "geometry": null
+}

@@ -14,7 +14,7 @@
         "type": "wms",
         "best": true
     },
-    geometry":{"type":"Polygon","coordinates":
+    "geometry":{"type":"Polygon","coordinates":
       [
     	[
     	  [7.2943145,46.9237564],[7.2982665,46.9274715],[7.3061586,46.9309487],[7.3043338,46.9362344],[7.3068603,46.9403709],

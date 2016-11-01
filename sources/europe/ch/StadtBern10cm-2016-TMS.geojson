@@ -6,12 +6,11 @@
             "required": true
         },
         "name": "Stadt Bern 10cm (2016)",
-        "available_projections": [
-            "EPSG:21781"
-        ],
-        "url": "http://map.bern.ch/wms/OpenData/proxy.php?FORMAT=image/jpeg&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=0&STYLES=&SRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
+        "http://mapproxy.osm.ch:8080/tiles/bern2016/EPSG900913/{z}/{x}/{y}.png?origin=nw",
+        "min_zoom": 8,
+        "max_zoom": 21,
         "country_code": "CH",
-        "type": "wms",
+        "type": "tms",
         "best": true
     },
     geometry":{"type":"Polygon","coordinates":

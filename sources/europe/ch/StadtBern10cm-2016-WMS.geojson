@@ -10,7 +10,7 @@
         "min_zoom": 8,
         "max_zoom": 21,
         "country_code": "CH",
-        "type": "tms"
+        "type": "tms",
         "best": true
     },
     geometry":{"type":"Polygon","coordinates":

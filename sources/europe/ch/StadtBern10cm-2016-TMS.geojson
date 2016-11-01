@@ -11,7 +11,7 @@
         ],
         "url": "http://map.bern.ch/wms/OpenData/proxy.php?FORMAT=image/jpeg&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=0&STYLES=&SRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
         "country_code": "CH",
-        "type": "wms"
+        "type": "wms",
         "best": true
     },
     geometry":{"type":"Polygon","coordinates":

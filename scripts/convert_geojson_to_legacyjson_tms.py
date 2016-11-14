@@ -7,7 +7,7 @@ def convert_json_source(source):
     geometry = source.get('geometry') or {}
     polygon_coords = geometry.get('coordinates') or []
     if polygon_coords:
-        extent_obj['polygon'] = polygon_coords
+        # extent_obj['polygon'] = polygon_coords
         # generate bbox from polygon coordinates as a stop gap         
         min_lon = 180
         max_lon = -180

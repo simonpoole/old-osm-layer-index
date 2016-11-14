@@ -5,7 +5,7 @@ source_features = []
 for file in sys.argv[1:]:
     with io.open(file, 'r') as f:
     	source = json.load(f)
-    	properties = source['properties]
+    	properties = source['properties']
     	if properties['type'] != 'wms':
         	source_features.append(source)
 

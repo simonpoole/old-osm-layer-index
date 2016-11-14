@@ -1,10 +1,22 @@
-import json, sys
+import json, sys, util, io
+from xml.dom.minidom import parse
 
-entries = []
-
+source_features = []
 for file in sys.argv[1:]:
-    entry = json.load(open(file))
-    if entry['type'] != 'wms':
-       entries.append(json.load(open(file)))
+    with io.open(file, 'r') as f:
+    	source = json.load(f)
+    	properties = source['properties]
+    	if properties['type'] != 'wms':
+        	source_features.append(source)
 
-print json.dumps(entries, indent=4)
+collection = {
+    "type": "FeatureCollection",
+    "features": source_features
+}
+
+print(json.dumps(
+    collection,
+    indent=4,
+    sort_keys=True,
+    separators=(',', ': ')
+))

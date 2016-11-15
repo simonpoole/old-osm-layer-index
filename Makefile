@@ -23,4 +23,4 @@ imagery_tms.json: $(SOURCES)
 	python scripts/concat_tms.py $(SOURCES) > imagery_tms.json
 
 imagery_tms_minified.json: $(SOURCES)
-	python scripts/convert_geojson_to_legacyjson_tms.py $(SOURCES) | json-minify > imagery_tms_minified.json
+	python scripts/convert_geojson_to_legacyjson.py -btr $(SOURCES) | json-minify > imagery_tms_minified.json

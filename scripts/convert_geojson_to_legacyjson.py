@@ -55,19 +55,23 @@ def convert_json_source(source):
     return converted
 
 try:
-    opts, args = getopt.getopt(argv, "btr",["bbox","tmsonly","removepolygons"])
+    opts, args = getopt.getopt(sys.argv[1:], "btr",["bbox","tmsonly","removepolygons"])
 except getopt.GetoptError:    
     sys.exit(2)
     
+global _gen_bbox
+_gen_bbox = 0
+global _tms_only
+_tms_only = 0
+global _remove_polygons
+_remove_polygons = 0
+
 for opt, arg in opts:
         if opt in ("-b", "--bbox"):
-            global _gen_bbox
             _gen_bbox = 1
         elif opt in ("-t", "--tmsonly"):
-            global _tms_only
             _tms_only = 1
         elif opt in ("-r", "--removepolygons"):
-            global _remove_polygons
             _remove_polygons = 1
 
 features = []
